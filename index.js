@@ -11,7 +11,7 @@ module.exports = function (CustomHeaders) {
 
         res.removeHeader("X-Powered-By")
 
-        for (const [key, value] of Object.entries(CustomHeaders))
+        if (CustomHeaders) for (const [key, value] of Object.entries(CustomHeaders))
             typeof value != "boolean" ? ResponseHeaders[key] = value : delete ResponseHeaders[key]
 
         for (const [key, value] of Object.entries(ResponseHeaders)) res.setHeader(key, value)
