@@ -6,6 +6,19 @@ Add security related headers to an express application.
 
 express-securityheaders add's a default set of security headers to secure your express applications.
 
+The following are set by default:
+
+  Content-Security-Policy: default-src 'self'
+  Permissions-Policy: ""
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Strict-Transport-Security: max-age=15552000; includeSubDomains,
+  Referrer-Policy: no-referrer
+
+The X-Powered-By header is removed.
+
+Test your application headers using https://securityheaders.com
+
 ### Install
 
 * Install with npm
