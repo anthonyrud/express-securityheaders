@@ -1,6 +1,6 @@
 {
   "name": "express-securityheaders",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Add security related headers to an express application.",
   "main": "index.js",
   "scripts": {
