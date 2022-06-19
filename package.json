@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/anthonyrud/express-securityheaders.git"
+  },
+  "dependencies": {
+    "np": "^7.6.1"
   }
 }
