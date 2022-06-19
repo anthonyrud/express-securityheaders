@@ -8,7 +8,8 @@ module.exports = function (CustomHeaders) {
             "Strict-Transport-Security": "max-age=15552000; includeSubDomains",
             "Referrer-Policy": "no-referrer",
             "X-XSS-Protection": "1; mode=block",
-            "X-Permitted-Cross-Domain-Policies": "none"
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "Clear-Site-Data": "*"
         }
 
         res.removeHeader("X-Powered-By")
