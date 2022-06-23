@@ -16,7 +16,7 @@ The following are set by default:
   Referrer-Policy: no-referrer  
   X-XSS-Protection: 1; mode=block  
   X-Permitted-Cross-Domain-Policies: none  
-  Clear-Site-Data: *
+  Clear-Site-Data: "*"
 
 The X-Powered-By header is removed.
 
