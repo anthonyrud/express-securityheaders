@@ -16,10 +16,10 @@ The following are set by default:
   Referrer-Policy: no-referrer  
   X-XSS-Protection: 1; mode=block  
   X-Permitted-Cross-Domain-Policies: none  
-  Clear-Site-Data: "*"
-  Cross-Origin-Embedder-Policy: require-corp
-  Cross-Origin-Opener-Policy: same-origin
-  Cross-Origin-Resource-Policy: same-origin
+  Clear-Site-Data: "*"  
+  Cross-Origin-Embedder-Policy: require-corp  
+  Cross-Origin-Opener-Policy: same-origin  
+  Cross-Origin-Resource-Policy: same-origin  
 
 The X-Powered-By header is removed.
 
