@@ -9,7 +9,7 @@ module.exports = function (CustomHeaders) {
             "Referrer-Policy": "no-referrer",
             "X-XSS-Protection": "1; mode=block",
             "X-Permitted-Cross-Domain-Policies": "none",
-            "Clear-Site-Data": "*",
+            "Clear-Site-Data": "\"*\"",
             "Cross-Origin-Embedder-Policy": "require-corp",
             "Cross-Origin-Opener-Policy": "same-origin",
             "Cross-Origin-Resource-Policy": "same-origin"
