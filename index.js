@@ -5,7 +5,7 @@ module.exports = function (CustomHeaders) {
             "Permissions-Policy": "",
             "X-Frame-Options": "DENY",
             "X-Content-Type-Options": "nosniff",
-            "Strict-Transport-Security": "max-age=15552000; includeSubDomains",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
             "Referrer-Policy": "no-referrer",
             "X-XSS-Protection": "1; mode=block",
             "X-Permitted-Cross-Domain-Policies": "none",
